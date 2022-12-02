@@ -1,0 +1,33 @@
+.contentShoppingContainer {
+  width: 100%;
+  height: 90vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.titleShoppingCart {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  color: rgb(59, 60, 61);
+  font-family: cursive;
+  font-size: larger;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  padding: 12px;
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.shoppingCartProducts {
+  width: 100%;
+  background-color: rgba(135, 206, 235, 0.3);
+  height: 100px;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+}

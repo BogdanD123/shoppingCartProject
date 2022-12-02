@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.categoriesContainer {
+  display: flex;
+  width: 200px;
+  height: 10vh;
+  margin: 5px;
+  flex-direction: column;
+  position: absolute;
+}
+.singleCategoryContainer {
+  display: flex;
+  margin: 5px;
+  font-size: small;
+  text-decoration: underline;
+  color: rgb(2, 2, 44);
+  cursor: pointer;
+}
